@@ -1,0 +1,43 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+.venv/
+
+# ── Model weights & vocab (too large / machine-specific) ──────────────────────
+*.pt
+*.pth
+api/vocab.json
+
+# ── LaTeX ─────────────────────────────────────────────────────────────────────
+*.tex
+*.pdf
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# ── Screenshots ───────────────────────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+
+# ── Generated notebook (generate_notebook.py produces this) ───────────────────
+ag_news_experiment.ipynb
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
